@@ -10,7 +10,9 @@ $ pod install
 
 - Open DemoFFMEG.xcworkspace
 
-- Bottom side of xcode choose simulator and PLAY
+(NOT DemoFFMEG.xcodeproj)
+
+- Build and Run the app
 
 - In the center of app you can see PLAY button
 
