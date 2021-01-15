@@ -1,0 +1,6 @@
+framework module Pods_DemoFFMEG {
+  umbrella header "Pods-DemoFFMEG-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049D632725B09E75009E5B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D632625B09E75009E5B24 /* AppDelegate.swift */; };
+		049D632925B09E75009E5B24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D632825B09E75009E5B24 /* SceneDelegate.swift */; };
+		049D632B25B09E75009E5B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D632A25B09E75009E5B24 /* ViewController.swift */; };
+		049D632E25B09E75009E5B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049D632C25B09E75009E5B24 /* Main.storyboard */; };
+		049D633025B09E77009E5B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D632F25B09E77009E5B24 /* Assets.xcassets */; };
+		049D633325B09E77009E5B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049D633125B09E77009E5B24 /* LaunchScreen.storyboard */; };
+		049D634325B09FF6009E5B24 /* Daft Punk - Get Lucky (Joe Maz Remix) (Extended).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049D634225B09FF6009E5B24 /* Daft Punk - Get Lucky (Joe Maz Remix) (Extended).mp3 */; };
+		23CDB98DA2C2D87DE505CAA1 /* Pods_DemoFFMEG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCDAD40D1487CCF91B7BB3B /* Pods_DemoFFMEG.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049D632325B09E75009E5B24 /* DemoFFMEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFFMEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049D632625B09E75009E5B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049D632825B09E75009E5B24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		049D632A25B09E75009E5B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049D632D25B09E75009E5B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049D632F25B09E77009E5B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049D633225B09E77009E5B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049D633425B09E77009E5B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049D633D25B09F71009E5B24 /* DemoFFMEG-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoFFMEG-Bridging-Header.h"; sourceTree = "<group>"; };
+		049D634225B09FF6009E5B24 /* Daft Punk - Get Lucky (Joe Maz Remix) (Extended).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Daft Punk - Get Lucky (Joe Maz Remix) (Extended).mp3"; sourceTree = "<group>"; };
+		7083D39A05CD5DC2F835C5AE /* Pods-DemoFFMEG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFFMEG.release.xcconfig"; path = "Target Support Files/Pods-DemoFFMEG/Pods-DemoFFMEG.release.xcconfig"; sourceTree = "<group>"; };
+		9ECD7E8B8D8AC5B6592E5332 /* Pods-DemoFFMEG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFFMEG.debug.xcconfig"; path = "Target Support Files/Pods-DemoFFMEG/Pods-DemoFFMEG.debug.xcconfig"; sourceTree = "<group>"; };
+		CFCDAD40D1487CCF91B7BB3B /* Pods_DemoFFMEG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoFFMEG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049D632025B09E75009E5B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CDB98DA2C2D87DE505CAA1 /* Pods_DemoFFMEG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049D631A25B09E75009E5B24 = {
+			isa = PBXGroup;
+			children = (
+				049D632525B09E75009E5B24 /* DemoFFMEG */,
+				049D632425B09E75009E5B24 /* Products */,
+				254181885FA59CECDE1CC514 /* Pods */,
+				F11C5474FF0EB89EF30A251D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		049D632425B09E75009E5B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049D632325B09E75009E5B24 /* DemoFFMEG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049D632525B09E75009E5B24 /* DemoFFMEG */ = {
+			isa = PBXGroup;
+			children = (
+				049D634525B09FFC009E5B24 /* Resourses */,
+				049D632625B09E75009E5B24 /* AppDelegate.swift */,
+				049D632825B09E75009E5B24 /* SceneDelegate.swift */,
+				049D632A25B09E75009E5B24 /* ViewController.swift */,
+				049D632C25B09E75009E5B24 /* Main.storyboard */,
+				049D632F25B09E77009E5B24 /* Assets.xcassets */,
+				049D633125B09E77009E5B24 /* LaunchScreen.storyboard */,
+				049D633425B09E77009E5B24 /* Info.plist */,
+				049D633D25B09F71009E5B24 /* DemoFFMEG-Bridging-Header.h */,
+			);
+			path = DemoFFMEG;
+			sourceTree = "<group>";
+		};
+		049D634525B09FFC009E5B24 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				049D634225B09FF6009E5B24 /* Daft Punk - Get Lucky (Joe Maz Remix) (Extended).mp3 */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		254181885FA59CECDE1CC514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ECD7E8B8D8AC5B6592E5332 /* Pods-DemoFFMEG.debug.xcconfig */,
+				7083D39A05CD5DC2F835C5AE /* Pods-DemoFFMEG.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F11C5474FF0EB89EF30A251D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFCDAD40D1487CCF91B7BB3B /* Pods_DemoFFMEG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049D632225B09E75009E5B24 /* DemoFFMEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049D633725B09E77009E5B24 /* Build configuration list for PBXNativeTarget "DemoFFMEG" */;
+			buildPhases = (
+				34A46C85489A72C9496D3EC2 /* [CP] Check Pods Manifest.lock */,
+				049D631F25B09E75009E5B24 /* Sources */,
+				049D632025B09E75009E5B24 /* Frameworks */,
+				049D632125B09E75009E5B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoFFMEG;
+			productName = DemoFFMEG;
+			productReference = 049D632325B09E75009E5B24 /* DemoFFMEG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049D631B25B09E75009E5B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					049D632225B09E75009E5B24 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 049D631E25B09E75009E5B24 /* Build configuration list for PBXProject "DemoFFMEG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049D631A25B09E75009E5B24;
+			productRefGroup = 049D632425B09E75009E5B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049D632225B09E75009E5B24 /* DemoFFMEG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049D632125B09E75009E5B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049D633325B09E77009E5B24 /* LaunchScreen.storyboard in Resources */,
+				049D633025B09E77009E5B24 /* Assets.xcassets in Resources */,
+				049D634325B09FF6009E5B24 /* Daft Punk - Get Lucky (Joe Maz Remix) (Extended).mp3 in Resources */,
+				049D632E25B09E75009E5B24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34A46C85489A72C9496D3EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoFFMEG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049D631F25B09E75009E5B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049D632B25B09E75009E5B24 /* ViewController.swift in Sources */,
+				049D632725B09E75009E5B24 /* AppDelegate.swift in Sources */,
+				049D632925B09E75009E5B24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049D632C25B09E75009E5B24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049D632D25B09E75009E5B24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049D633125B09E77009E5B24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049D633225B09E77009E5B24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049D633525B09E77009E5B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049D633625B09E77009E5B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049D633825B09E77009E5B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECD7E8B8D8AC5B6592E5332 /* Pods-DemoFFMEG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoFFMEG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.DemoFFMEG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoFFMEG/DemoFFMEG-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049D633925B09E77009E5B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7083D39A05CD5DC2F835C5AE /* Pods-DemoFFMEG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoFFMEG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.DemoFFMEG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoFFMEG/DemoFFMEG-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049D631E25B09E75009E5B24 /* Build configuration list for PBXProject "DemoFFMEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049D633525B09E77009E5B24 /* Debug */,
+				049D633625B09E77009E5B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049D633725B09E77009E5B24 /* Build configuration list for PBXNativeTarget "DemoFFMEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049D633825B09E77009E5B24 /* Debug */,
+				049D633925B09E77009E5B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049D631B25B09E75009E5B24 /* Project object */;
+}

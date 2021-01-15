@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 797E3892A9E731F1BE505B941C2067A6 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */;
+			buildPhases = (
+				25DCD786C43D49D3F2ED58F8B404DA05 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "mobile-ffmpeg-full";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		940E52A07E81443F6D4ECBDED90CD00B /* Pods-DemoFFMEG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00306F0285E25924E318C1220A2C3096 /* Pods-DemoFFMEG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E7FD22A6E49DAE739CB22BA9B53D29 /* Pods-DemoFFMEG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F70095554952002812D8FAE17456A6 /* Pods-DemoFFMEG-dummy.m */; };
+		F12BF7B42E74612D2A12246A6A065E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD90082A877933F64004D64057A522F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00306F0285E25924E318C1220A2C3096 /* Pods-DemoFFMEG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoFFMEG-umbrella.h"; sourceTree = "<group>"; };
+		09872F36CF69EA505A518699F41E3A6A /* soxr.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = soxr.xcframework; sourceTree = "<group>"; };
+		109BE396DFA254FCB0DBCE5D88920A14 /* libvorbisfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbisfile.xcframework; sourceTree = "<group>"; };
+		1125AF65046227ABBDD829C61B7D0F84 /* freetype.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = freetype.xcframework; sourceTree = "<group>"; };
+		18E65CB6E7DABDC4F2D63A66EA4C3A6F /* libass.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libass.xcframework; sourceTree = "<group>"; };
+		1B98AE8E8371B37DF9F8BDD8E93D8911 /* kvazaar.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = kvazaar.xcframework; sourceTree = "<group>"; };
+		1C7FAA2F72AF10D256A293B5F4467E03 /* Pods-DemoFFMEG-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoFFMEG-acknowledgements.plist"; sourceTree = "<group>"; };
+		225BA1606C69E9DABAB62BDF6463720F /* fontconfig.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = fontconfig.xcframework; sourceTree = "<group>"; };
+		24BF7803AABECAC1B53E2772BD63E1BF /* gnutls.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = gnutls.xcframework; sourceTree = "<group>"; };
+		2D899463C0A313DBB09387D46F5EF2D7 /* libogg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libogg.xcframework; sourceTree = "<group>"; };
+		2F244E0E8248317A5E379D225B01F5A5 /* Pods-DemoFFMEG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoFFMEG.debug.xcconfig"; sourceTree = "<group>"; };
+		39016955DCCC9052F482F008543D1A0B /* libwebpdemux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebpdemux.xcframework; sourceTree = "<group>"; };
+		3EC4F557A2E411AE5878320D6F05056B /* libavutil.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavutil.xcframework; sourceTree = "<group>"; };
+		452C57081B515B712D674BFB27242555 /* libilbc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libilbc.xcframework; sourceTree = "<group>"; };
+		4A64959A2897095C4D474503C22A1AEC /* libvpx.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvpx.xcframework; sourceTree = "<group>"; };
+		4B11AA310FD8C2F65E8DD40B9E33B1FB /* snappy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = snappy.xcframework; sourceTree = "<group>"; };
+		54B5629C28FCE40A2B05C20442811E8F /* libnettle.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libnettle.xcframework; sourceTree = "<group>"; };
+		5720DC19D4CC530D40F5D24C75375851 /* libvorbis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbis.xcframework; sourceTree = "<group>"; };
+		585F9C63CA9A39D20BD0A520EBC59FF1 /* fribidi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = fribidi.xcframework; sourceTree = "<group>"; };
+		5E4E0C0D46338249A0220742FE0D1BF0 /* libtheoraenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheoraenc.xcframework; sourceTree = "<group>"; };
+		623EB70BFE6CD11FBF9D4461967ABDBC /* libopencore-amrnb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = "libopencore-amrnb.xcframework"; sourceTree = "<group>"; };
+		62D7F3160F073681A2E43D918F101EEA /* libvorbisenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbisenc.xcframework; sourceTree = "<group>"; };
+		65044CA84BE1A61B39DBDD155C3CEA97 /* libavfilter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavfilter.xcframework; sourceTree = "<group>"; };
+		6BB8A8828E73A5F1948884179AFF51D0 /* lame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = lame.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7779984E194334578A8E9D54C3519F59 /* libwebpmux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebpmux.xcframework; sourceTree = "<group>"; };
+		7DDF5C61C9D2C86B488364DC999C2CB7 /* libswscale.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswscale.xcframework; sourceTree = "<group>"; };
+		83B34FAA4996A362BE29700344BDBECF /* gmp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = gmp.xcframework; sourceTree = "<group>"; };
+		851E7CDF42155C6892A7BD2D8AAAF602 /* mobileffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = mobileffmpeg.xcframework; sourceTree = "<group>"; };
+		87403F605D9CBB9F02C0F4FE28A53859 /* speex.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = speex.xcframework; sourceTree = "<group>"; };
+		97ABFCFD31911C9FD44AD7331EF919C4 /* giflib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = giflib.xcframework; sourceTree = "<group>"; };
+		9855F377C9571EA1C68B4E26A5C41A4E /* twolame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = twolame.xcframework; sourceTree = "<group>"; };
+		9CA20ED7E88E0F7A3CB81C295038A340 /* vo-amrwbenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = "vo-amrwbenc.xcframework"; sourceTree = "<group>"; };
+		9D3B7D93ED5599E33D4FFE87F8E66BE1 /* libavcodec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavcodec.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A2B1DB2FA3233BF622DD29961D389D /* libxml2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libxml2.xcframework; sourceTree = "<group>"; };
+		A7A90A662AED91CFF65B584873C854E9 /* Pods-DemoFFMEG-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoFFMEG-Info.plist"; sourceTree = "<group>"; };
+		AA67DE5F025EDCB24BFA9D6841077620 /* libswresample.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswresample.xcframework; sourceTree = "<group>"; };
+		AB30E427771E97042DB275099CE4CBAA /* wavpack.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = wavpack.xcframework; sourceTree = "<group>"; };
+		AC952EA3D0D222232E6BE3B4208802BC /* Pods-DemoFFMEG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoFFMEG.release.xcconfig"; sourceTree = "<group>"; };
+		AEA2C74F9A7C2D4A5F663C02F357953F /* libwebp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebp.xcframework; sourceTree = "<group>"; };
+		B8D634456C2E210E0383AE64B6DEEFEF /* libtheora.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheora.xcframework; sourceTree = "<group>"; };
+		BE5F07AE8A74ED99057145A07166FD9F /* tiff.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = tiff.xcframework; sourceTree = "<group>"; };
+		C3ACEF7524BAC805FDEB8529402F6A20 /* mobile-ffmpeg-full.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.release.xcconfig"; sourceTree = "<group>"; };
+		C43333D7E4F8354E2C4AE61063EBF4B3 /* Pods-DemoFFMEG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoFFMEG.modulemap"; sourceTree = "<group>"; };
+		C52128611ED1EB2304460D5C8A82AEEF /* libaom.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libaom.xcframework; sourceTree = "<group>"; };
+		C6E3BF50A9C6281CA2605143319538E4 /* Pods_DemoFFMEG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoFFMEG.framework; path = "Pods-DemoFFMEG.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87B90FB2E956D519CC5E71A377EA0E7 /* libhogweed.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libhogweed.xcframework; sourceTree = "<group>"; };
+		C8C632398C13F5E19B3FCFFC975E43EB /* libpng.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libpng.xcframework; sourceTree = "<group>"; };
+		CD4213E3839AB5DC870714FB45C2A714 /* Pods-DemoFFMEG-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoFFMEG-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0F70095554952002812D8FAE17456A6 /* Pods-DemoFFMEG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoFFMEG-dummy.m"; sourceTree = "<group>"; };
+		D691B25FA432A5AF2C77D170E05317D7 /* libavformat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavformat.xcframework; sourceTree = "<group>"; };
+		D6E8BD1A0EDA28F6468C6A7624EAC230 /* jpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = jpeg.xcframework; sourceTree = "<group>"; };
+		DEFD3C0DC9005DAFA9F7CA4A11618EE0 /* shine.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = shine.xcframework; sourceTree = "<group>"; };
+		E4B727DC3BBFE0D14571CE8F61D407AF /* mobile-ffmpeg-full-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "mobile-ffmpeg-full-xcframeworks.sh"; sourceTree = "<group>"; };
+		E5B707B05917EEC2B814C3E7A0BB30F8 /* libavdevice.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavdevice.xcframework; sourceTree = "<group>"; };
+		E9AC4196576563C1B16FC409CFC1E83E /* libsndfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libsndfile.xcframework; sourceTree = "<group>"; };
+		ED8EDB79400248882DBA81A074CC4AA9 /* opus.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = opus.xcframework; sourceTree = "<group>"; };
+		F00717AF0EDB1C459ADBDFACC3DCECEF /* expat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = expat.xcframework; sourceTree = "<group>"; };
+		FB7CD821744EDB2342019E1F7873E2EB /* libtheoradec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheoradec.xcframework; sourceTree = "<group>"; };
+		FE7E334A78E7D37D6026796B5EE109C5 /* mobile-ffmpeg-full.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFAA14DC9B409F07C74C5DEA23E329E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12BF7B42E74612D2A12246A6A065E88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C35AFEAB8715E0562808E3A0699720A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F00717AF0EDB1C459ADBDFACC3DCECEF /* expat.xcframework */,
+				225BA1606C69E9DABAB62BDF6463720F /* fontconfig.xcframework */,
+				1125AF65046227ABBDD829C61B7D0F84 /* freetype.xcframework */,
+				585F9C63CA9A39D20BD0A520EBC59FF1 /* fribidi.xcframework */,
+				97ABFCFD31911C9FD44AD7331EF919C4 /* giflib.xcframework */,
+				83B34FAA4996A362BE29700344BDBECF /* gmp.xcframework */,
+				24BF7803AABECAC1B53E2772BD63E1BF /* gnutls.xcframework */,
+				D6E8BD1A0EDA28F6468C6A7624EAC230 /* jpeg.xcframework */,
+				1B98AE8E8371B37DF9F8BDD8E93D8911 /* kvazaar.xcframework */,
+				6BB8A8828E73A5F1948884179AFF51D0 /* lame.xcframework */,
+				C52128611ED1EB2304460D5C8A82AEEF /* libaom.xcframework */,
+				18E65CB6E7DABDC4F2D63A66EA4C3A6F /* libass.xcframework */,
+				9D3B7D93ED5599E33D4FFE87F8E66BE1 /* libavcodec.xcframework */,
+				E5B707B05917EEC2B814C3E7A0BB30F8 /* libavdevice.xcframework */,
+				65044CA84BE1A61B39DBDD155C3CEA97 /* libavfilter.xcframework */,
+				D691B25FA432A5AF2C77D170E05317D7 /* libavformat.xcframework */,
+				3EC4F557A2E411AE5878320D6F05056B /* libavutil.xcframework */,
+				C87B90FB2E956D519CC5E71A377EA0E7 /* libhogweed.xcframework */,
+				452C57081B515B712D674BFB27242555 /* libilbc.xcframework */,
+				54B5629C28FCE40A2B05C20442811E8F /* libnettle.xcframework */,
+				2D899463C0A313DBB09387D46F5EF2D7 /* libogg.xcframework */,
+				623EB70BFE6CD11FBF9D4461967ABDBC /* libopencore-amrnb.xcframework */,
+				C8C632398C13F5E19B3FCFFC975E43EB /* libpng.xcframework */,
+				E9AC4196576563C1B16FC409CFC1E83E /* libsndfile.xcframework */,
+				AA67DE5F025EDCB24BFA9D6841077620 /* libswresample.xcframework */,
+				7DDF5C61C9D2C86B488364DC999C2CB7 /* libswscale.xcframework */,
+				B8D634456C2E210E0383AE64B6DEEFEF /* libtheora.xcframework */,
+				FB7CD821744EDB2342019E1F7873E2EB /* libtheoradec.xcframework */,
+				5E4E0C0D46338249A0220742FE0D1BF0 /* libtheoraenc.xcframework */,
+				5720DC19D4CC530D40F5D24C75375851 /* libvorbis.xcframework */,
+				62D7F3160F073681A2E43D918F101EEA /* libvorbisenc.xcframework */,
+				109BE396DFA254FCB0DBCE5D88920A14 /* libvorbisfile.xcframework */,
+				4A64959A2897095C4D474503C22A1AEC /* libvpx.xcframework */,
+				AEA2C74F9A7C2D4A5F663C02F357953F /* libwebp.xcframework */,
+				39016955DCCC9052F482F008543D1A0B /* libwebpdemux.xcframework */,
+				7779984E194334578A8E9D54C3519F59 /* libwebpmux.xcframework */,
+				A3A2B1DB2FA3233BF622DD29961D389D /* libxml2.xcframework */,
+				851E7CDF42155C6892A7BD2D8AAAF602 /* mobileffmpeg.xcframework */,
+				ED8EDB79400248882DBA81A074CC4AA9 /* opus.xcframework */,
+				DEFD3C0DC9005DAFA9F7CA4A11618EE0 /* shine.xcframework */,
+				4B11AA310FD8C2F65E8DD40B9E33B1FB /* snappy.xcframework */,
+				09872F36CF69EA505A518699F41E3A6A /* soxr.xcframework */,
+				87403F605D9CBB9F02C0F4FE28A53859 /* speex.xcframework */,
+				BE5F07AE8A74ED99057145A07166FD9F /* tiff.xcframework */,
+				9855F377C9571EA1C68B4E26A5C41A4E /* twolame.xcframework */,
+				9CA20ED7E88E0F7A3CB81C295038A340 /* vo-amrwbenc.xcframework */,
+				AB30E427771E97042DB275099CE4CBAA /* wavpack.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40B8112CB7B3715CAD1AFD716372D471 /* mobile-ffmpeg-full */ = {
+			isa = PBXGroup;
+			children = (
+				3C35AFEAB8715E0562808E3A0699720A /* Frameworks */,
+				BD06ACACEA14B63865A4D644BF36221B /* Support Files */,
+			);
+			name = "mobile-ffmpeg-full";
+			path = "mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B8112CB7B3715CAD1AFD716372D471 /* mobile-ffmpeg-full */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E2DE987B65C244FEDEFE829720750D4 /* Pods-DemoFFMEG */ = {
+			isa = PBXGroup;
+			children = (
+				C43333D7E4F8354E2C4AE61063EBF4B3 /* Pods-DemoFFMEG.modulemap */,
+				CD4213E3839AB5DC870714FB45C2A714 /* Pods-DemoFFMEG-acknowledgements.markdown */,
+				1C7FAA2F72AF10D256A293B5F4467E03 /* Pods-DemoFFMEG-acknowledgements.plist */,
+				D0F70095554952002812D8FAE17456A6 /* Pods-DemoFFMEG-dummy.m */,
+				A7A90A662AED91CFF65B584873C854E9 /* Pods-DemoFFMEG-Info.plist */,
+				00306F0285E25924E318C1220A2C3096 /* Pods-DemoFFMEG-umbrella.h */,
+				2F244E0E8248317A5E379D225B01F5A5 /* Pods-DemoFFMEG.debug.xcconfig */,
+				AC952EA3D0D222232E6BE3B4208802BC /* Pods-DemoFFMEG.release.xcconfig */,
+			);
+			name = "Pods-DemoFFMEG";
+			path = "Target Support Files/Pods-DemoFFMEG";
+			sourceTree = "<group>";
+		};
+		A8E8DD11907F19C9DB5ED44E0D47486D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E2DE987B65C244FEDEFE829720750D4 /* Pods-DemoFFMEG */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AA967BF50DFBB519086A9B23427E60C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E3BF50A9C6281CA2605143319538E4 /* Pods_DemoFFMEG.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD06ACACEA14B63865A4D644BF36221B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4B727DC3BBFE0D14571CE8F61D407AF /* mobile-ffmpeg-full-xcframeworks.sh */,
+				FE7E334A78E7D37D6026796B5EE109C5 /* mobile-ffmpeg-full.debug.xcconfig */,
+				C3ACEF7524BAC805FDEB8529402F6A20 /* mobile-ffmpeg-full.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */,
+				AA967BF50DFBB519086A9B23427E60C6 /* Products */,
+				A8E8DD11907F19C9DB5ED44E0D47486D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DAE517B4BC8A051304F6632A185E0F26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940E52A07E81443F6D4ECBDED90CD00B /* Pods-DemoFFMEG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		704BFB8D0EC0ED80113237CF6DE838EE /* Pods-DemoFFMEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0512ABB36E89647A7A125CEA92C756 /* Build configuration list for PBXNativeTarget "Pods-DemoFFMEG" */;
+			buildPhases = (
+				DAE517B4BC8A051304F6632A185E0F26 /* Headers */,
+				B851FAFCC7AC995C422CF1679FCEF6EC /* Sources */,
+				6FFAA14DC9B409F07C74C5DEA23E329E /* Frameworks */,
+				72071C0BAAE83401A83E5D5AF740CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7237C59AC6CF9AF560266FF7C6CE16EE /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoFFMEG";
+			productName = "Pods-DemoFFMEG";
+			productReference = C6E3BF50A9C6281CA2605143319538E4 /* Pods_DemoFFMEG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA967BF50DFBB519086A9B23427E60C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */,
+				704BFB8D0EC0ED80113237CF6DE838EE /* Pods-DemoFFMEG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72071C0BAAE83401A83E5D5AF740CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25DCD786C43D49D3F2ED58F8B404DA05 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/mobile-ffmpeg-full/mobile-ffmpeg-full-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/mobile-ffmpeg-full/mobile-ffmpeg-full-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/mobile-ffmpeg-full/mobile-ffmpeg-full-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B851FAFCC7AC995C422CF1679FCEF6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E7FD22A6E49DAE739CB22BA9B53D29 /* Pods-DemoFFMEG-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7237C59AC6CF9AF560266FF7C6CE16EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = CD90082A877933F64004D64057A522F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		15E9885A7DE59E23E5CF3427E040D0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ACEF7524BAC805FDEB8529402F6A20 /* mobile-ffmpeg-full.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ECE41A755A062B75E0545BCA8340B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7E334A78E7D37D6026796B5EE109C5 /* mobile-ffmpeg-full.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		704B92A2C7811EBA41803DFCCDF6A294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC952EA3D0D222232E6BE3B4208802BC /* Pods-DemoFFMEG.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoFFMEG/Pods-DemoFFMEG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoFFMEG/Pods-DemoFFMEG.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB764C3A03EB5A67E8A9D877CACF5B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F244E0E8248317A5E379D225B01F5A5 /* Pods-DemoFFMEG.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoFFMEG/Pods-DemoFFMEG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoFFMEG/Pods-DemoFFMEG.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0512ABB36E89647A7A125CEA92C756 /* Build configuration list for PBXNativeTarget "Pods-DemoFFMEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB764C3A03EB5A67E8A9D877CACF5B1E /* Debug */,
+				704B92A2C7811EBA41803DFCCDF6A294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797E3892A9E731F1BE505B941C2067A6 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECE41A755A062B75E0545BCA8340B6A /* Debug */,
+				15E9885A7DE59E23E5CF3427E040D0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
